@@ -13,6 +13,10 @@
 ```objc
     [ZXHStatusBarHUD ZXH_showLoading:@"正在加载中..."];
 ```
+##显示普通信息
+```objc
+    [ZXHStatusBarHUD ZXH_showMessage:@"哈哈哈"];
+```
 ##隐藏
 ```objc
     [ZXHStatusBarHUD ZXH_hide];
